@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs and OS files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.DS_Store
+Thumbs.db
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Tailwind generated files
+.tailwind/
+.tailwind-cache/
+
+# Temporary files
+*.lock
+package-lock.json
+yarn.lock
+.pnp/
+.pnp.js
+
+# Storybook files (if using)
+storybook-static/
+
+# Next.js (if applicable)
+.next/
