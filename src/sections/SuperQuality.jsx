@@ -11,10 +11,10 @@ const SuperQuality = () => {
           <span className='text-coral-red '> Super Quality </span>
           Shoes
         </h2>
-        <p className="mt-4 lg:max-w-lg info-text"> Ensuring premium comfort and style, our meticulously crafted footwear
+        <p className="mt-4 lg:max-w-lg info-text  dark:text-white"> Ensuring premium comfort and style, our meticulously crafted footwear
           is designed to elevate your experience, providing you with unmatched
           quality, innovation, and a touch of elegance.</p>
-        <p className='mt-6 lg:max-w-lg info-text'>
+        <p className='mt-6 lg:max-w-lg info-text  dark:text-white'>
           Our dedication to detail and excellence ensures your satisfaction
         </p>
         <div className="mt-11">

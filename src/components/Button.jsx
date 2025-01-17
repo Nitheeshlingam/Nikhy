@@ -5,9 +5,14 @@ const Button = ({ label, iconURL, backgroundColor, textColor, borderColor, fullW
         ${backgroundColor
                     ? `${backgroundColor} ${textColor} ${borderColor}`
                     : "bg-coral-red text-white border-coral-red"
-                } rounded-full ${fullWidth && "w-full"}`}
-        >{label}
-            {iconURL && <img src={iconURL} className="m1-2 rounded-full w-5 h-5" />}
+                } rounded-full ${fullWidth && "w-full"} transition-all duration-300`}
+        >
+            {label}
+            {iconURL && <img
+                src={iconURL}
+                className="ml-2 rounded-full w-5 h-5 dark:filter dark:brightness-200"
+                alt="icon"
+            />}
         </button>
     )
 }
