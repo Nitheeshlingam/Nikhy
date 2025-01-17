@@ -14,6 +14,7 @@ const Hero = () => {
       className="w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
       <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+<<<<<<< HEAD
         <p className="text-xl font-montserrat text-coral-red">
           Our Summer Collection
         </p>
@@ -24,6 +25,13 @@ const Hero = () => {
           <br />
           <span className="text-coral-red inline-block mt-3">Nike</span>
           <span className="text-black dark:text-white transition-colors duration-300"> Shoes</span>
+=======
+        <p className="text-xl font-montserrat text-coral-red">Our Summer Collection</p>
+        <h1 className="mt-10 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82] font-bold">
+          <span className="xl:bg-white xl:whitespace-nowrap relative z-10 pr-10">The New Arrival</span><br />
+          <span className='text-coral-red inline-block mt-3'>Nike</span>
+          <span> Shoes</span>
+>>>>>>> 94783c1d8eb01bb86e36659c562b38305d54e9e7
         </h1>
         <p className="font-montserrat text-slate-gray dark:text-white text-lg leading-8 mt-6 mb-14 sm:max-w-sm transition-colors duration-300">
           Discover stylish Nike arrivals, quality comfort, and innovation for your active life.
@@ -68,4 +76,8 @@ const Hero = () => {
   )
 }
 
+<<<<<<< HEAD
 export default Hero;
+=======
+export default Hero
+>>>>>>> 94783c1d8eb01bb86e36659c562b38305d54e9e7
